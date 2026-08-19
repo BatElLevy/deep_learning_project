@@ -2,6 +2,19 @@
 
 This directory contains the complete submission for the DNA-protein binding prediction task, including the final prediction pipeline, trained model checkpoints, precomputed representations, input data, and the generated predictions for all 64 test DBPs.
 
+## Git LFS
+
+This repository uses **Git LFS (Large File Storage)** for the pretrained SimBind model checkpoints.
+
+Please make sure Git LFS is installed before cloning the repository:
+
+```bash
+git lfs install
+git clone https://github.com/BatElLevy/dna_protein_binding.git
+cd dna_protein_binding
+git lfs pull
+```
+
 ## Running the Submission
 
 From the `submission/` directory, run:
